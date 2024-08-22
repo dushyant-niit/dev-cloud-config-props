@@ -1,0 +1,8 @@
+myapp:
+  feature:
+    enable: true
+    max-retries: 5
+  service:
+    endpoint: http://dev-service.local/api
+  security:
+    token: dev-secret-token
